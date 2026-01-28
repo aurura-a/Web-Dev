@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Recipe Book</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff7f0;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #b34700;
+            text-align: center;
+        }
+
+        h2 {
+            color: #804000;
+        }
+
+        h3 {
+            color: #a0522d;
+        }
+
+        a {
+            color: #cc6600;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ffd9b3;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .recipe {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍽️ My Favorite Recipes</h1>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#pancakes">Pancakes</a></li>
+        <li><a href="#pasta">Creamy Pasta</a></li>
+        <li><a href="#salad">Fresh Salad</a></li>
+    </ul>
+
+    <div class="recipe" id="pancakes">
+        <h2>Pancakes</h2>
+
+        <img src="https://hips.hearstapps.com/hmg-prod/images/best-homemade-pancakes-index-640775a2dbad8.jpg?crop=0.6667877686951256xw:1xh;center,top&resize=1200:*" alt="Pancakes">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Egg</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <h3>Details</h3>
+        <ul>
+            <li>Preparation time: 10 minutes</li>
+            <li>Cooking time: 10 minutes</li>
+            <li>Servings: 2</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Mix flour, milk, and egg.</li>
+            <li>Heat a pan.</li>
+            <li>Pour batter and cook both sides.</li>
+        </ol>
+
+        <p>Recipe source: 
+            <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D1%82%D1%83%D1%87%D0%B8%D0%BD%D0%B8_%D0%90%D0%BB%D1%8C%D1%84%D1%80%D0%B5%D0%B4%D0%BE">
+                Wikipedia
+            </a>
+        </p>
+    </div>
+
+    <div class="recipe" id="pasta">
+        <h2>Creamy Pasta</h2>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0MRLss4noljWXfSDN5xDp0PfWTjCdK-Y_w&s" alt="Pasta">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Pasta</td>
+                <td>200 g</td>
+            </tr>
+            <tr>
+                <td>Cream</td>
+                <td>100 ml</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>50 g</td>
+            </tr>
+        </table>
+
+        <h3>Steps</h3>
+        <p>Cook pasta, heat cream, mix everything together and add cheese.</p>
+    </div>
+
+    <div class="recipe" id="salad">
+        <h2>Fresh Salad</h2>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPFdWONnHsQbBVNigT44IX3newMsK9ZEDOg&s" alt="Salad">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Lettuce</td>
+                <td>1 bunch</td>
+            </tr>
+            <tr>
+                <td>Tomatoes</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cucumber</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <h3>Steps</h3>
+        <ul>
+            <li>Wash vegetables.</li>
+            <li>Chop everything.</li>
+            <li>Mix and serve.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
