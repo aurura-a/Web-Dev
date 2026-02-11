@@ -34,7 +34,7 @@ function addTodoItem(text) {
 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
-    deleteButton.className = 'delete-btn';
+    deleteButton.className = 'delete-button';
 
     deleteButton.addEventListener('click', function () {
         todoList.removeChild(listItem);
